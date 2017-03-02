@@ -54,7 +54,10 @@ out.println(temp);
 ### e.g.
 ```java
 NaturalNumber num = new NaturalNumber2(8);
-out.println(multiply(num, 2)); // num remains the same
+out.println(multiply2(num, 2)); // num remains the same
+
+NaturalNumber base = new NaturalNumber1L(4);
+out.println(power2(base, 4));
 ```
 
 ## TODO
