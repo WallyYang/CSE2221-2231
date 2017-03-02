@@ -35,6 +35,27 @@
   javac HelloWorld.java
   java HelloWorld
   ```
+  
+## Help Method for NaturalNumber
+
+### if you feel the origin implementation of NaturalNumber member functions
+
+### e.g.
+```java
+NaturalNumber num = new NaturalNumber2(8);
+NaturalNumber temp = new NaturalNumber2(num); // use temp variable to keep original unchanged
+NaturalNumber ten = new NaturalNumber2(10);
+temp.multiply(ten);
+out.println(temp);
+```
+
+### try the [new implementation](./src/HelpMethods2.java)
+
+### e.g.
+```java
+NaturalNumber num = new NaturalNumber2(8);
+out.println(multiply(num, 2)); // num remains the same
+```
 
 ## TODO
 - [ ] Write instructions for Windows & macOS
